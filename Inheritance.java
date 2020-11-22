@@ -4,12 +4,15 @@ class Bike {
     public int gear;
     public int speed;
 
-    // Bike(int gear , int speed){
-    //     this.gear = gear;
-    //     this.speed = speed;
-    // }
+    Bike(int gear , int speed){
+        this.gear = gear;
+        this.speed = speed;
+    }
 
-    public void applyBrake(int value){
+    public Bike() {
+    }
+
+    public void applyBrake(int value) {
         speed =- value;
     }
 
@@ -27,18 +30,14 @@ class MountainBike extends Bike{
 
     public int seatHeight;
 
-    //Bike() constuctor of super class is being called implicitly
-    MountainBike(int gear, int speed) {
-        this.gear = gear;
-        this.speed = speed;
+    //Bike() constuctor of super class is not visible , need to create the constructor in parent class
+    MountainBike() {
+        super();
     }
     
-    //Bike() constuctor of super class is being called implicitly
     public MountainBike(int gear,int speed,int startHeight) 
     { 
-        this.gear = gear;
-        this.speed = speed;
-        // super(gear, speed); 
+        super(gear, speed);  //call to constructor of parent class
         seatHeight = startHeight; 
     }  
           

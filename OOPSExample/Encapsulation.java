@@ -1,3 +1,5 @@
+package OOPSExample;
+
  class Credentials 
 { 
     private String userName; 

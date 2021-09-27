@@ -1,3 +1,5 @@
+package GeneralExamples;
+
 class Marks{
     int earned;
     int minimumRequired;

@@ -1,3 +1,5 @@
+package OOPSExample;
+
 abstract class Wrestler{
 
     public void paymentForWork(int hours){

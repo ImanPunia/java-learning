@@ -1,4 +1,6 @@
-import Vehicle.Vehicle;
+package GeneralExamples;
+
+import GeneralExamples.Vehicle.Vehicle;
 
 
 public class Tractor extends Vehicle{

@@ -1,4 +1,4 @@
-package Vehicle;
+package GeneralExamples.Vehicle;
 
 public class TwoWheeler {
     

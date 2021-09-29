@@ -3,7 +3,7 @@ package Unique;
 import java.util.ArrayList;
 import java.util.List;
 
-class UniqueString{
+class UniqueString {
 
     public static boolean isUnique(String str) {
 
@@ -42,4 +42,10 @@ class UniqueString{
       public static void main(String args[]){
         System.out.println(isUnique("this u"));
       }
+
 }
+
+
+
+
+
